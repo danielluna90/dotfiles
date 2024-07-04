@@ -1,6 +1,6 @@
 # Oh My Posh
 if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
-  eval "$(oh-my-posh init zsh)"
+  eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/danielluna90-omp-theme.json)"
 fi
 
 # Node Version Manager
